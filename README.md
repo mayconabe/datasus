@@ -8,6 +8,16 @@ O propósito deste projeto consiste na elaboração de uma base de dados contend
 informações sobre as internações hospitalares ocorridas entre os anos de 2019 e 2023, com uma
 granularidade temporal mensal e uma agregação geográfica por município.
 
+# Objetivos
+- Coletar os dados realizando a raspagem dos dados.
+- Carga dos dados no banco de dados PostgreSQL.
+
+# Metodologia
+- **Coletar** os dados do site "datasus".
+- **Organização**, limpeza e transformação dos dados para análise.
+- **Exploração** dos dados.
+- **Visualização** para descoberta de insights.
+
 # Web Scraping
 A coleta dos dados foram feitas com uma biblioteca em Python chamada "Selenium".
 Selenium é uma ferramenta muito poderosa e popular no ecossistema Python, especialmente no
