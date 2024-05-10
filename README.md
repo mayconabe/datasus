@@ -17,7 +17,7 @@ O código feito utilizou o "Chromium", que é um Webdriver do navegador Chrome. 
 código acessamos o site do DATASUS e pegamos as informações de 2019 até 2023, após toda
 a coleta, foi gerado um arquivo em CSV para a leitura no Python ou SAS Viya.
 
-#Carga de Dados
+# Carga de Dados
 Após a conclusão de todos os estágios de tratamento dos dados, procedemos com a\
 carga manual utilizando a ferramenta DBeaver para realizar a inserção dos dados no banco de\
 dados PostgreSQL.
